@@ -54,6 +54,11 @@ body {
     overflow-y: scroll;
 }
 
+/* chat messages  */
+li {
+    list-style: none;
+}
+
 /* input  */
 
 .message_input {
