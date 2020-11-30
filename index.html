@@ -5,13 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js" integrity="sha512-Jr0UIR/Q8MUX+93zjDOhuDUKLqJZObtwpkLJQcR9qMaLgL0thet39IORuavUaZFkZ8a4ktrUsKPM9mf5LWMduA==" crossorigin="anonymous"></script></head>
+    <link rel="stylesheet" href="/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js" integrity="sha512-Jr0UIR/Q8MUX+93zjDOhuDUKLqJZObtwpkLJQcR9qMaLgL0thet39IORuavUaZFkZ8a4ktrUsKPM9mf5LWMduA==" crossorigin="anonymous"></script>
+</head>
+
 <body>
-    <H1>Playing with web sockets</H1>
-    <section>
-        <h2>This is where the message will go</h2>
-        <p id="msg"></p>
+    <section class="main_container">
+        <header class="header">
+            <h1 class="logo">Chat App</h1>
+        </header>
+        <section class="side_and_chat_container">
+
+            <section class="side_bar">
+                <div class="side_profile">
+                    <img class="profile_pic" src="https://i.pravatar.cc/150?img=3" alt="">
+                    <p class="profile_name">Jack rabit</p>
+                </div>
+                <div class="side_profile">
+                    <img class="profile_pic" src="https://i.pravatar.cc/150?img=7" alt="">
+                    <p class="profile_name">Jack rabit</p>
+                </div>
+                <div class="side_profile">
+                    <img class="profile_pic" src="https://i.pravatar.cc/150?img=10" alt="">
+                    <p class="profile_name">Jack rabit</p>
+                </div>
+                <div class="side_profile">
+                    <img class="profile_pic" src="https://i.pravatar.cc/150?img=17" alt="">
+                    <p class="profile_name">Jack rabit</p>
+                </div>
+                <div class="side_profile">
+                    <img class="profile_pic" src="https://i.pravatar.cc/150?img=15" alt="">
+                    <p class="profile_name">Jack rabit</p>
+                </div>
+                <div class="side_profile">
+                    <img class="profile_pic" src="https://i.pravatar.cc/150?img=12" alt="">
+                    <p class="profile_name">Jack rabit</p>
+                </div>
+                <div class="side_profile">
+                    <img class="profile_pic" src="https://i.pravatar.cc/150?img=33" alt="">
+                    <p class="profile_name">Jack rabit</p>
+                </div>
+            </section>
+
+            <section class="chat_box">
+
+            </section>
+
+        </section>
+        <section class="chat_input_container">
+
+           <form action="">
+               <input class="message_input" type="text">
+               <input type="submit">
+           </form>
+
+        </section>
     </section>
 
     <script type="text/javascript" src="main.js"></script>
