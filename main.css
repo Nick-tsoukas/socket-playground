@@ -57,6 +57,13 @@ body {
 /* chat messages  */
 li {
     list-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li:nth-child(odd) {
+    background:#eee;
 }
 
 /* input  */
